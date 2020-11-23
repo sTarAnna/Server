@@ -22,7 +22,8 @@
 ## SSH Connection
 ([↑up to contents](#ssh))
 
-###1. 使用 Linux 终端
+### 1. 使用 Linux 终端
+
 在本地终端输入
 ```
 ssh username@hostaddress
@@ -57,7 +58,7 @@ ssh username@hostaddress
 点击 File -> Settings -> Project -> Project Interpreter ，点击齿轮 -> Add ，选择"SSH Interpreter"，勾选"Existing server configuration"。
 在下拉菜单中选择刚刚创建的配置，并点击Pycharm提示的"Moving"。点击"Next"，之后要设置服务器上Python解释器的路径。在服务器配置好的Python环境中，在终端输入"which python"查看当前Python解释器的路径，并复制到当前页面的Interpreter中。
 
-###4. Tips
+### 4. Tips
 在3.里修改解释器路径的地方也有一个Mappings，其与2中的设置的区别可以理解为主分支与开发分支。在本地修改代码并运行成功后，点击Tools -> Deployment -> Upload to "XXX@xxx" 便可将本地项目中的代码上传。之后连接到服务器采用后台运行的方式运行代码（这样的好处是本地机器不用一直保持和服务器的连接）。
 
 ------
