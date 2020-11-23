@@ -1,12 +1,14 @@
 # 实验室服务器连接指北
 
 ------
+
 @author   钱宇欣
 
 @version  2020.11.23
 本文档用于说明实验室GPU服务器的连接方式。
 
 ------
+
 ## Contents
 - [使用 ssh 连接服务器](#ssh)
 - [使用 Pycharm 连接服务器](#pycharm)
@@ -32,6 +34,7 @@ ssh username@hostaddress
 打开工具后先输入服务器地址，之后在终端分别输入账户名及密码，完成连接。
 
 [1]: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+
 ------
 
 ## Pycharm Connection
@@ -143,7 +146,9 @@ sudo apt-get install filezilla
 安装应用。启动后输入服务器地址，账号与密码则可进行传输。
 
 [5]:https://www.filezilla.cn/
+
 ------
+
 ## Background Process
 ([↑up to contents](#tips))
 以上连接方案，包括Jupyter等使用本地终端启动的应用在关闭本地的终端、浏览器之后都会被杀死，需要使用"nohup"命令。
