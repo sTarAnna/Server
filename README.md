@@ -11,7 +11,7 @@
 
 ## Contents
 
-[toc]
+[TOC]
 
 - [使用 ssh 连接服务器](#ssh)
 - [使用 Pycharm 连接服务器](#pycharm)
