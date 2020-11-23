@@ -64,7 +64,7 @@ ssh username@hostaddress
 
 ------
 
-## Jupyter Lab/Notebook Connection
+## Jupyter Connection
 ([↑up to contents](#contents))
 
 ### 1. Jupyter安装
