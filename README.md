@@ -11,14 +11,12 @@
 
 ## Contents
 
-[TOC]
-
-- [使用 ssh 连接服务器](#ssh)
-- [使用 Pycharm 连接服务器](#pycharm)
-- [使用 Jupyter Lab / Notebook 连接](#jupyter)
+- [使用 ssh 连接服务器](#ssh-connection)
+- [使用 Pycharm 连接服务器](#pycharm-connection)
+- [使用 Jupyter Lab / Notebook 连接](#jupyter-lab/notebook-connection)
 - [使用 Tensorboard 监视训练](#tensorboard)
-- [使用 FTP 上传文件](#ftp)
-- [后台运行](#tips)
+- [使用 FTP 上传文件](#ftp-filezilla)
+- [后台运行](#background process)
 
 ------
 
@@ -140,7 +138,7 @@ tensorboard --log_dir=xxx --bind_all
 [4]:https://tensorflow.google.cn/tensorboard
 
 ------
-## FTP-FileZilla
+## FTP FileZilla
 ([↑up to contents](#contents))
 我们建议使用[FileZilla][5]在服务器和本地机之间传递数据。
 在本地终端输入
