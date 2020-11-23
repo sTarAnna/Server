@@ -141,6 +141,7 @@ tensorboard --log_dir=xxx --bind_all
 sudo apt-get install filezilla
 ```
 安装应用。启动后输入服务器地址，账号与密码则可进行传输。
+
 [5]:https://www.filezilla.cn/
 ------
 ## Background Process
