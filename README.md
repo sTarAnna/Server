@@ -10,7 +10,10 @@
 ------
 
 ## Contents
-- [使用 ssh 连接服务器](##ssh)
+
+[toc]
+
+- [使用 ssh 连接服务器](#ssh)
 - [使用 Pycharm 连接服务器](#pycharm)
 - [使用 Jupyter Lab / Notebook 连接](#jupyter)
 - [使用 Tensorboard 监视训练](#tensorboard)
@@ -39,7 +42,7 @@ ssh username@hostaddress
 ------
 
 ## Pycharm Connection
-([↑up to contents](#Contents))
+([↑up to contents](#contents))
 ### 1. 连接配置
 编写好Python代码源文件之后，现在我们来设置[PyCharm][2]与云主机的连接。
 点击菜单中的 Tools -> Deployment -> Configuration 打开Deployment对话框。
@@ -64,7 +67,7 @@ ssh username@hostaddress
 ------
 
 ## Jupyter Lab/Notebook Connection
-([↑up to contents](#jupyter))
+([↑up to contents](#contents))
 
 ### 1. Jupyter安装
 远程连接到服务器，切换到要使用的虚拟环境，使用
@@ -127,7 +130,7 @@ jupyter notebook
 ------
 
 ## Tensorboard 
-([↑up to contents](#tensorboard))
+([↑up to contents](#contents))
 在服务器上运行[Tensorboard][4]
 ```
 tensorboard --log_dir=xxx --bind_all
@@ -138,7 +141,7 @@ tensorboard --log_dir=xxx --bind_all
 
 ------
 ## FTP-FileZilla
-([↑up to contents](#ftp))
+([↑up to contents](#contents))
 我们建议使用[FileZilla][5]在服务器和本地机之间传递数据。
 在本地终端输入
 ```
@@ -151,7 +154,7 @@ sudo apt-get install filezilla
 ------
 
 ## Background Process
-([↑up to contents](#tips))
+([↑up to contents](#contents))
 以上连接方案，包括Jupyter等使用本地终端启动的应用在关闭本地的终端、浏览器之后都会被杀死，需要使用"nohup"命令。
 ``` 
 # 后台启动juputer-lab
