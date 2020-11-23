@@ -180,7 +180,6 @@ tmux detach
 如果想指定session的名称方便记忆，可以使用 -s 参数：
 ```
 tmux new -s [session-name]
-
 ```
 在普通 Terminal 终端中，可以使用这个指令查看所有的 Tmux 会话：
 ```
