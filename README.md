@@ -10,7 +10,7 @@
 ------
 
 ## Contents
-- [使用 ssh 连接服务器](#ssh)
+- [使用 ssh 连接服务器](##ssh)
 - [使用 Pycharm 连接服务器](#pycharm)
 - [使用 Jupyter Lab / Notebook 连接](#jupyter)
 - [使用 Tensorboard 监视训练](#tensorboard)
@@ -20,7 +20,7 @@
 ------
 
 ## SSH Connection
-([↑up to contents](#ssh))
+([↑up to contents](#contents))
 
 ### 1. 使用 Linux 终端
 
@@ -39,7 +39,7 @@ ssh username@hostaddress
 ------
 
 ## Pycharm Connection
-([↑up to contents](#pycharm))
+([↑up to contents](#Contents))
 ### 1. 连接配置
 编写好Python代码源文件之后，现在我们来设置[PyCharm][2]与云主机的连接。
 点击菜单中的 Tools -> Deployment -> Configuration 打开Deployment对话框。
