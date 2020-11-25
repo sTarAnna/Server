@@ -2,7 +2,7 @@
 
 ------
 
-@author   钱宇欣
+@author   Aiz
 
 @version  2020.11.23
 本文档用于说明实验室GPU服务器的连接方式。
@@ -13,7 +13,7 @@
 
 - [使用 ssh 连接服务器](#ssh-connection)
 - [使用 Pycharm 连接服务器](#pycharm-connection)
-- [使用 Jupyter Lab / Notebook 连接](#jupyter-connection)
+- [使用 Jupyter Lab / Notebook 连接](#jupyter-connection) 
 - [使用 Tensorboard 监视训练](#tensorboard)
 - [使用 FTP 上传文件](#ftp-filezilla)
 - [后台运行](#background-process)
