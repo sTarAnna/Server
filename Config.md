@@ -67,3 +67,27 @@ sudo netplan apply
 ```
 完成静态ip配置。
 
+### 5.ssh 服务安装
+
+在拥有root权限的账号下使用
+```
+sudo apt-get install openssh-server
+sudo /etc/init.d/ssh start
+```
+安装并启动ssh服务。
+
+### 6. FTP服务安装
+
+在拥有root权限的账号下使用
+```
+sudo apt-get install vsftpd
+```
+安装FTP服务，修改"/etc/init.d/vsftpd.conf"配置文件中
+```
+sudo vim /etc/init.d/vsftpd.conf
+```
+将"write_enable=YES"注释取消。
+最后使用
+```
+sudo /etc/init.d/vsftpd start
+```
