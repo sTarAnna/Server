@@ -123,6 +123,7 @@ jupyter notebook
 ### 5. Tips
 
 本地终端关闭后，启动的jupyter应用也会被关闭，可使用nohup等方法放入后台，详见本指南最后一章。
+推荐使用Jupyter Lab.
 若在本地启用了系统代理，使用Firefox需手动在设置中跳过Jupyter地址的代理。
 
 ------
