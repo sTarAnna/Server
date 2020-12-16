@@ -49,7 +49,7 @@ sudo reboot
 ifconfig
 ```
 查看当前服务器使用的网卡(例：enp4s0)。
-修改配置文件"/etc/netplan/50-cloud-init.yaml"如下：
+修改在"/etc/netplan/"文件夹下的./yaml配置文件如下（该文件原有的内容保留）：
 ```
 network:
     ethernets:
@@ -59,7 +59,7 @@ network:
             optional: true
             gateway4: 192.168.1.1
             nameservers:
-                    addresses: []
+                    addresses: [192.168.1.1]
 ```
 最后在命令行输入
 ```
