@@ -29,11 +29,11 @@ sudo adduser username
 ubuntu-drivers devices
 sudo ubunutu-drivers autoinstall
 ```
-自动安装显示Nvidia驱动，之后重启，在命令行输入
+自动安装Nvidia驱动，之后重启，在命令行输入
 ```
 nvidia-smi
 ```
-如输入显卡信息则安装成功。
+若显示显卡信息则安装成功。
 
 ### 3. 图形界面
 为确保训练进程不被内核关闭，我们将服务器图形界面关闭，在root权限的终端输入
