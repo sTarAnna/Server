@@ -125,6 +125,17 @@ jupyter notebook
 本地终端关闭后，启动的jupyter应用也会被关闭，可使用nohup等方法放入后台，详见本指南最后一章。
 推荐使用Jupyter Lab.
 若在本地启用了系统代理，使用Firefox需手动在设置中跳过Jupyter地址的代理。
+tqdm与Jupyter Lab可能会有兼容问题（在jupyter lab中的Notebook显示HBOX()而不是进度条）采用如下[方式解决][6]
+需先安装node.js
+
+```
+#usual installation 
+pip install ipywidgets 
+jupyter nbextension enable --py widgetsnbextension
+#you are my saver!
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+```
+[6]:https://github.com/tqdm/tqdm/issues/394
 
 ------
 
