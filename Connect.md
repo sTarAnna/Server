@@ -16,6 +16,7 @@
 - [使用 Jupyter Lab / Notebook 连接](#jupyter-connection) 
 - [使用 Tensorboard 监视训练](#tensorboard)
 - [使用 FTP 上传文件](#ftp-filezilla)
+- [借助SSH进行文件传输](#scp)
 - [后台运行](#background-process)
 
 ------
@@ -160,6 +161,34 @@ sudo apt-get install filezilla
 安装应用。启动后输入服务器地址，账号与密码则可进行传输。
 
 [5]:https://www.filezilla.cn/
+
+------
+
+## SCP
+
+使用SSH在服务器以及本地间传输文件/文件夹
+
+1. 从服务器下载文件
+命令格式如下：
+```
+scp <用户名>@<ssh服务器地址>:<文件路径> <本地文件名>
+```
+示例，下载文件到本地桌面
+```
+scp root@127.0.0.1:~/test.txt ~/Desktop/test.txt
+```
+
+2. 上传文件到服务器
+命令格式如下：
+
+```
+scp <本地文件名> <用户名>@<ssh服务器地址>:<上传保存路径即文件名>
+```
+
+这里需要注意的一点是，只能将文件上传至用户目录下。如需上传至其它目录，可先上传至用户目录，然后移动文件至指定位置。
+
+3. 文件夹操作
+上传/下载文件夹操作与文件操作类似，只需加入参数 -r 即可。
 
 ------
 
